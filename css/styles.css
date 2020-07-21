@@ -1,0 +1,162 @@
+.body{
+  font-family: 'Montserrat', sans-serif;
+}
+.lastbutton{
+  margin: 50px 20px;
+}
+#cta{
+  background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+#title{
+  background-color: #ff4c68;
+
+}
+#footer{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+}
+
+.social-media{
+  color: #000;
+  margin: 10px 10px;
+}
+
+.title-image{
+  width: 60%;
+  margin-left: 10%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+#features{
+  background-color: #fff;
+padding: 7% 15% ;
+position: relative;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+#testimonials{
+  background-color: #ff847c;
+  text-align: center;
+
+  color:#FFFFFF;
+}
+#press{
+  background-color: #ff847c;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align:center;
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#FFFFFF;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+h2{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+p{
+  color: grey;
+
+}
+.pricing-tabel{
+  padding: 3% 4%;
+}
+.navbar{
+  padding: 0 0 80px 0;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 1rem;
+}
+.nav-link{
+  font-family: 'Montserrat-light', sans-serif;
+}
+.downloadbtn{
+  margin: 10% 3% 10% 0%  ;
+}
+
+
+.feature-text{
+  font-family: 'Montserrat';
+  font-weight:lighter;
+  text-align:center;
+  padding:5%;
+
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color: #ff4c68
+}
+.test-image{
+  border-radius: 100%;
+  margin: 4%;
+  width: 10%;
+  padding-bottom: 5px;
+}
+.press-image{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+.carousel-indicators{
+  margin-top: 20px;
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.Last-Text{
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.CopyRText{
+  margin-top :15px;
+
+}
+
+@media (max-width:991px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0);
+    position: static;
+
+  }
+
+}
